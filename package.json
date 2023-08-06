@@ -1,0 +1,21 @@
+{
+  "name": "zarinpal",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite build && vite preview",
+    "tailwindM": "npx tailwindcss -i ./public/tailwind/tailwind.css -o ./style.css --minify --watch",
+    "scssM": "node-sass -w ./public/scss/tailwind.scss -o ./public/tailwind/ -r --output-style compressed "
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "jquery": "^3.7.0",
+    "node-sass": "^9.0.0"
+  }
+}

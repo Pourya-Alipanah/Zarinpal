@@ -1,0 +1,36 @@
+// @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: iranYekan;
+    src: url(font/iranyekanwebregular.woff) format('woff');
+}
+@font-face {
+    font-family: bakhM;
+    src: url(font/YekanBakhMedium.woff) format('woff');
+}
+@font-face {
+    font-family: bakhB;
+    src: url(font/YekanBakhBold.woff) format('woff');
+}
+.flexActive{
+    display: flex !important;
+}
+.coverPage , .coverPage2 , .coverPage3{
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+}
+.rotateAngle{
+    transform: rotateZ(180deg) !important;
+}
+
+@import "component-wrapper";
+@import "navbarComponents/toggleBtn";
+@import "navbarComponents/component-desktop";
+@import "navbarComponents/component-mobile";

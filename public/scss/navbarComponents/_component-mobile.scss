@@ -1,0 +1,26 @@
+@layer components{
+    .mobileNav{
+        @apply flex-1 md:hidden flex px-2 justify-end items-center
+    }
+    .menuIcon{
+        @apply mb-[5px] ml-[5px]
+    }
+    .mobileMenu{
+        @apply w-[100%] bg-white dark:bg-[#0F172A] fixed top-0 left-0 z-[6] flex-col shadow-[0_20px_40px_0_rgba(36,39,51,.15)] dark:shadow-[0_20px_40px_0_rgba(255,255,255,0.15)] hidden
+    }
+    .closeBtn{
+        @apply flex justify-end p-[13px] pt-[15px]
+    }
+    .ul-mobileNav{
+        @apply flex flex-col mb-[16px] list-none flex-1
+    }
+    .zarinpal-button-mobile-link{
+        @apply no-underline text-[#28457b] dark:text-[#fffefb] dark:group-hover:text-[#28457b] flex items-center justify-center font-semibold
+    }
+    .subProducts{
+        @apply list-none flex-col w-[100%] bg-[#eee] dark:bg-[rgba(228,197,0,.15)] text-[13px] rounded-md pr-[10px] py-[5px] hidden
+    }
+    .productOpenerBtn{
+        @apply text-[#303030] dark:text-[#fffefb] flex cursor-pointer
+    }
+}

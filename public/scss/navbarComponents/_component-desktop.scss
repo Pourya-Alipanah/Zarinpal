@@ -1,0 +1,57 @@
+@layer components{
+    .headerStyle{
+        @apply xl:w-[1170px] lg:w-[941px] w-[100%] md:h-[86px] h-[64px] box-border flex flex-row flex-nowrap  fixed top-0 lg:pt-[21px] lg:pb-[7px] lg:px-0 md:pt-[21px] pt-[8px] md:pr-[20px] md:pb-[7px] md:pl-[20px] pr-[20px] m-auto bg-white z-[5] opacity-100 dark:bg-[#0F172A] 
+    }
+    .headerStyle{
+        transition-property: height , border , backdrop-filter ;
+        transition-duration: 1000ms;
+        transition-timing-function: ease-out;
+        backdrop-filter: saturate(180%) blur(20px) !important;
+        -webkit-backdrop-filter: saturate(180%) blur(20px) !important;
+    }
+    .scrollHeaderStyle{
+        @apply py-[10px] h-[64px] bg-[rgba(255,255,255,0.72)] dark:bg-[rgba(15,23,41,0.72)] border-b-[1px] border-solid border-b-[rgba(0,0,0,.1)] border-x-0 border-t-0
+    }
+    .top-logo{
+        @apply flex px-2 box-border
+    }
+    .bigNav{
+        @apply flex-1 justify-end h-[70px] px-2 box-border flex-nowrap md:flex hidden
+    }
+    .ul-bigNav{
+        @apply flex flex-1 justify-end mb-[16px] mt-[-2px] 2xl:pr-[40px] pr-0 box-border list-none font-bakh select-none flex-nowrap
+    }
+    .list-bigNav{
+        @apply flex flex-row items-center lg:mx-[15px] mx-[8px] text-[#303030] text-center cursor-pointer text-[14px] font-medium box-border dark:text-[#fffefb] relative flex-nowrap
+    }
+    .zarinpal-button{
+        @apply rounded-[20px] no-underline text-[#28457b] dark:text-[#fffefb] lg:mr-[20px] py-[10px] lg:px-[27px] md:mr-[1px] md:px-[10px] bg-[rgba(232,239,254,.6)] dark:bg-[rgba(228,197,0,.15)] font-bakhBold hover:bg-[rgba(228,197,0,.15)] dark:hover:bg-[rgba(232,239,254,.6)] dark:hover:text-[#28457b]
+    }
+    .coverPage , .coverPage2 , .coverPage3{
+        @apply fixed right-0 top-0 w-[100vw] z-[6] h-[100vh] hidden
+    }
+    .more-menu-1{
+        @apply shadow-[0_20px_40px_0_rgba(36,39,51,.15)] min-w-[421px] h-[285px] absolute z-[99] bg-white rounded-[12px] top-[55px] right-[-165px] box-border text-right border-t-[5px] border-x-0 border-b-[1px] border-solid border-t-[#f8e88b] border-b-[hsla(0,0%,100%,.07)] p-[2px] pt-[14px] cursor-default flex-nowrap overflow-hidden dark:bg-[#0F172A] hidden dark:shadow-[0_20px_40px_0_rgba(255,255,255,0.15)]
+    }
+    .product-side{
+        @apply flex flex-col flex-1 box-border flex-nowrap overflow-hidden
+    }
+    .product-container{
+        @apply px-[8px] box-border font-bakh py-[1px] mb-[7px] hover:bg-[rgba(239,244,254,.6)] rounded-[8px] dark:hover:bg-[rgba(25,44,79,0.6)]
+    }
+    .product-title{
+        @apply text-[16px] text-[#303030] box-border mt-[4px] mb-[4px] hover:text-[#28457b] dark:text-[#fffefb] dark:hover:text-[#f8e88b]
+    }
+    .product-subtitle{
+        @apply text-[12px] text-[#303030] box-border mt-0 mb-[4px] dark:text-[#fffefb]
+    }
+    .more-menu-2{
+        @apply shadow-[0_20px_40px_0_rgba(36,39,51,.15)] min-w-[123px] h-[235px] absolute z-[99] bg-white rounded-[12px] top-[55px] right-[-35px] box-border text-right border-t-[5px] border-x-0 border-b-[1px] border-solid border-t-[#f8e88b] border-b-[hsla(0,0%,100%,.07)] pt-[14px] cursor-default flex-nowrap overflow-hidden dark:bg-[#0F172A] hidden dark:shadow-[0_20px_40px_0_rgba(255,255,255,0.15)]
+    }
+    .product-container-2{
+        @apply box-border font-bakh px-[20px] py-[10px] m-0 hover:bg-[rgba(239,244,254,.6)] rounded-[8px] dark:hover:bg-[rgba(25,44,79,0.6)]
+    }
+    .product-title-2{
+        @apply text-[14px] font-medium m-0 text-[#303030] box-border hover:text-[#28457b] dark:text-[#fffefb] dark:hover:text-[#f8e88b]
+    }
+}

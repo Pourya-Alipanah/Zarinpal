@@ -1,0 +1,6 @@
+@layer components{
+    .wrapper{
+        @apply xl:w-[1170px] lg:w-[940px] md:px-0 my-[10px] mx-auto h-[100vh]
+        /* اینجا هایت رو حذف کنم */
+    }
+}
