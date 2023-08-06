@@ -10,8 +10,14 @@
 
     <!-- Start Project @Pourya-Alipanah -->
     
-    
-    <div id="app" class="wrapper">
+    <svg style="display: block;position: absolute; top: 50%; left: 50%; transform: translate(-55% , -50%);" class="pl" width="240" height="240" viewBox="0 0 240 240">
+      <circle class="pl__ring pl__ring--a" cx="120" cy="120" r="105" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 660" stroke-dashoffset="-330" stroke-linecap="round"></circle>
+      <circle class="pl__ring pl__ring--b" cx="120" cy="120" r="35" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 220" stroke-dashoffset="-110" stroke-linecap="round"></circle>
+      <circle class="pl__ring pl__ring--c" cx="85" cy="120" r="70" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 440" stroke-linecap="round"></circle>
+      <circle class="pl__ring pl__ring--d" cx="155" cy="120" r="70" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 440" stroke-linecap="round"></circle>
+    </svg>
+
+    <div id="app" class="wrapper" style="display: none;">
 
       <!-- Start header -->
 
@@ -34,7 +40,7 @@
         <!-- Start dark mode button -->
 
         <div class="toggleWrapper md:mt-[11px] md:mr-[20px] mr-[10px] flex md:items-start items-center">
-          <input type="checkbox" class="dn" id="dn">
+          <input type="checkbox" class="dn hidden" id="dn">
           <label for="dn" class="toggle">
               <span class="toggle__handler">
                   <span class="crater crater--1"></span>
@@ -64,108 +70,14 @@
         
         
         <div class="mobileNav">
-
-          <span class="menuIcon">
-            <img src="icons/navBar/menu-black.svg" class="w-[100%] h-[100%] cursor-pointer dark:hidden">
-            <img src="icons/navBar/menu-white.svg" class="w-[100%] h-[100%] cursor-pointer hidden dark:inline-block">
-          </span>
-
           <div class="mobileMenu">
-
-            <div class="closeBtn">
+            <div class="closeBtn order-1">
               <img src="icons/navBar/close-menu-black.svg" class="w-[30px] h-[30px] cursor-pointer dark:hidden">
               <img src="icons/navBar/close-menu-white.svg" class="w-[30px] h-[30px] cursor-pointer hidden dark:inline-block">
             </div>
-
-            <div class="mobileNav px-[30px]">
-
-              <ul class="ul-mobileNav">
-                <li class="py-[9px]">
-                  <a href="#" class="no-underline text-[#303030] dark:text-[#fffefb]">
-                    تعرفه‌ها
-                  </a>
-                </li>
-                <li class="py-[9px]">
-                  <a href="#" class="no-underline text-[#303030] dark:text-[#fffefb]">
-                    اپلیکیشن
-                  </a>
-                </li>
-                <li class="py-[9px]">
-                  <a href="#" class="no-underline text-[#303030] dark:text-[#fffefb]">
-                    سوالات متداول
-                  </a>
-                </li>
-                <li class="py-[9px] " more-menu-mobile>
-                  <div class="productOpenerBtn">
-                    محصولات
-                    <span class="flex items-center">
-                      <img src="icons/navBar/angle-down-black.svg" class="w-[9px] h-[12px] mr-[6.5px] dark:hidden duration-500">
-                      <img src="icons/navBar/angle-down-white.svg" class="w-[9px] h-[12px] mr-[6.5px] hidden dark:block duration-500">
-                    </span>
-                  </div>
-                  <ul class="subProducts">
-                    <li class="py-[6px]">
-                      <a href="#" class="no-underline text-[#303030] dark:text-[#fffefb]">
-                        درگاه پرداخت اینترنتی
-                      </a>
-                    </li>
-                    <li class="py-[6px]">
-                      <a href="#" class="no-underline text-[#303030] dark:text-[#fffefb]">
-                        عیان
-                      </a>
-                    </li>
-                    <li class="py-[6px]">
-                      <a href="#" class="no-underline text-[#303030] dark:text-[#fffefb]">
-                        زرین‌لینک
-                      </a>
-                    </li>
-                    <li class="py-[6px]">
-                      <a href="#" class="no-underline text-[#303030] dark:text-[#fffefb]">
-                        زرین‌کارت
-                      </a>
-                    </li>
-                    <li class="py-[6px]">
-                      <a href="#" class="no-underline text-[#303030] dark:text-[#fffefb]">
-                        زرین‌پلاس
-                      </a>
-                    </li>
-                    <li class="py-[6px]">
-                      <a href="#" class="no-underline text-[#303030] dark:text-[#fffefb]">
-                        استرداد وجه
-                      </a>
-                    </li>
-                    <li class="py-[6px]">
-                      <a href="#" class="no-underline text-[#303030] dark:text-[#fffefb]">
-                        تسویه پیش از موعد 
-                      </a>
-                    </li>
-                    <li class="py-[6px]">
-                      <a href="#" class="no-underline text-[#303030] dark:text-[#fffefb]">
-                        تسهیم فردایی
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="py-[9px]">
-                  <a href="#" class="no-underline text-[#303030] dark:text-[#fffefb]">
-                    تماس با ما
-                  </a>
-                </li>
-              </ul>
-
+            <div class="mobileNavContainer px-[30px]">
+              <ul class="ul-mobileNav"></ul>
             </div>
-
-            <div class="py-[20px] px-[30px] bg-[#eee] w-[100%] hover:bg-[rgba(228,197,0,.15)] dark:bg-[rgba(228,197,0,.15)] dark:hover:bg-[rgba(232,239,254,.6)] group">
-
-              <a href="#" class="zarinpal-button-mobile-link">
-                <span>زرین‌پال من</span>
-                <span>
-                  <img src="icons/navBar/arrow-left-black.svg" class="w-[12px] h-[12px] mr-[5px] flex items-center dark:hidden dark:group-hover:flex">
-                  <img src="icons/navBar/arrow-left-white.svg" class="w-[12px] h-[12px] mr-[5px] hidden items-center dark:flex dark:group-hover:hidden">
-                </span>
-              </a>
-            </div>
-
           </div>
         </div>
 

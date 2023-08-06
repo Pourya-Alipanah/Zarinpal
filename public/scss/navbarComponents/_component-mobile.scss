@@ -1,15 +1,15 @@
 @layer components{
-    .mobileNav{
-        @apply flex-1 md:hidden flex px-2 justify-end items-center
+    .mobileNav , .mobileNavContainer{
+        @apply flex-1 md:hidden flex px-2 justify-end items-center order-2
     }
     .menuIcon{
-        @apply w-[25px] h-[25px] ml-[5px] flex items-center
+        @apply w-[25px] h-[25px] ml-[5px] flex items-center mb-[2px]
     }
     .mobileMenu{
         @apply w-[100%] bg-white dark:bg-[#0F172A] fixed top-0 left-0 z-[6] flex-col shadow-[0_20px_40px_0_rgba(36,39,51,.15)] dark:shadow-[0_20px_40px_0_rgba(255,255,255,0.15)] hidden
     }
     .closeBtn{
-        @apply flex justify-end p-[10px] pt-[22px] pb-0
+        @apply flex justify-end p-[10px] pt-[22px] pb-0 order-1
     }
     .ul-mobileNav{
         @apply flex flex-col mb-[16px] list-none flex-1
