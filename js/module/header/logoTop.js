@@ -7,7 +7,7 @@ let fetchLogo = async ()=>{
     let output = await jsonOut.map(elem=>{
 
         return `
-        <a href="#" class="flex items-center">
+        <a href="#" class="flex md:items-start items-center w-[100%] h-[100%]">
             <img id="${elem.id}" src="${elem.blackLogoUrl}" class="md:mt-[7px] md:mr-[20px] mr-0 select-none dark:hidden" alt="${elem.alt}">
             <img id="${elem.id}" src="${elem.whiteLogoUrl}" class="md:mt-[7px] md:mr-[20px] mr-0 select-none hidden dark:block" alt="${elem.alt}">
         </a>`

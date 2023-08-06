@@ -19,7 +19,7 @@
         @apply flex-1 justify-end h-[70px] px-2 box-border flex-nowrap md:flex hidden
     }
     .ul-bigNav{
-        @apply flex flex-1 justify-end mt-[-2px] 2xl:pr-[40px] pr-0 box-border list-none font-bakh select-none flex-nowrap
+        @apply flex flex-1 justify-end mb-[16px] mt-[-2px] 2xl:pr-[40px] pr-0 box-border list-none font-bakh select-none flex-nowrap
     }
     .list-bigNav{
         @apply flex flex-row items-center lg:mx-[15px] mx-[8px] text-[#303030] text-center cursor-pointer text-[14px] font-medium box-border dark:text-[#fffefb] relative flex-nowrap
