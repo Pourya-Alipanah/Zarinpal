@@ -1,0 +1,29 @@
+@layer components{
+    .blueIntro{
+        @apply  mt-[100px] bg-[linear-gradient(135deg,#21254e,#2b4a83)] dark:bg-[linear-gradient(135deg,#191c3b,#1c3158)] rounded-[20px] relative mx-auto
+    }
+    .blueIntroWrapper{
+        @apply bg-[url('./public/images/wave.svg')] bg-no-repeat bg-left w-[100%] h-[100%] xl:px-[60px] px-[20px] xl:pt-[124px] pt-[40px] xl:pb-[19px] pb-[85px] flex rounded-[20px]
+    }
+    .head-title{
+        @apply flex flex-col font-bakhHeavy sm:text-[32px] text-[20px] text-white dark:text-[#fffefb]
+    }
+    .description-title{
+        @apply sm:text-[18px] text-[16px] font-bakh leading-10 lg:my-[18px] sm:my-0 my-[5px] text-white dark:text-[#fffefb]
+    }
+    .arrow-down{
+        @apply bg-[url('./public/images/arrowbottom-white.svg')] dark:bg-[url('./public/images/arrowbottom-dark.svg')] bg-no-repeat flex justify-center items-center w-[164px] h-[78px] absolute bottom-[calc(-78px/2)] left-[calc(50%-82px)]
+    }
+    .right-box{
+        @apply lg:w-[50%] bg-transparent px-2 text-white dark:text-[#fffefb] flex flex-col lg:items-start items-center text-center lg:text-start
+    }
+    .left-box{
+        @apply w-[50%] px-2 hidden lg:block
+    }
+    .register-btn{
+        @apply font-bakhBold no-underline text-center py-[4px] px-[14px] text-[#303030] bg-[linear-gradient(270deg,#ffd900,#ffe422)] ml-[10px] rounded-[10px] text-[16px]
+    }
+    .login-btn{
+        @apply font-bakhBold no-underline text-center py-[4px] px-[14px] text-[16px] text-white dark:text-[#fffefb] rounded-[10px] bg-[#435a8a] dark:bg-[#324367]
+    }
+}

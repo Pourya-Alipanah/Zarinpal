@@ -1,5 +1,6 @@
 /* @type {import('tailwindcss').Config} */
 export default {
+  mode: 'jit',
   content: ["./*.html" , "./main.js" , "./js/module/*/*.js" ,"./js/module/*.js"],
   darkMode:"class",
   theme: {
@@ -7,7 +8,8 @@ export default {
       fontFamily:{
         yekan:["iranYekan"],
         bakh:["bakhM"],
-        bakhBold:["bakhB"]
+        bakhBold:["bakhB"],
+        bakhHeavy:["bakhH"]
       }
     },
     screens:{

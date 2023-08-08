@@ -1,0 +1,197 @@
+{
+    "header-logo":[
+        {
+            "id":"logo-top" ,
+            "blackLogoUrl":"icons/logo-black.svg" ,
+            "whiteLogoUrl":"icons/logo-white.svg" ,
+            "alt":"زرین پال"
+        }
+    ],
+    "header-nav":[
+        {
+            "count":"1" ,
+            "id":"bigNavbar" ,
+            "title":"محصولات",
+            "more":true ,
+            "angleIconBlack":"icons/navBar/angle-down-black.svg",
+            "angleIconWhite":"icons/navBar/angle-down-white.svg" ,
+            "menuClass":1 , 
+            "moreTitlesRight":[
+    
+                {
+                    "productTitle":"درگاه پرداخت" ,
+                    "productSubtitle":"مهندسی شده برای فروش بیش‌تر"
+                },
+    
+                {
+                    "productTitle":"عیان" ,
+                    "productSubtitle":"احراز هویت واقعی خریدار"
+                },
+    
+                {   
+                    "productTitle":"زرین‌لینک" ,
+                    "productSubtitle":"لینک پرداخت در شبکه‌های اجتماعی"
+                },
+    
+                {
+                    "productTitle":"زرین‌پلاس" ,
+                    "productSubtitle":"ابزار هوشمند سوددهی"
+                }
+    
+            ] , 
+            "moreTitlesLeft":[
+    
+                {
+                    "productTitle":"زرین‌کارت" ,
+                    "productSubtitle":"طلایی‌ترین کارتِ بانکی"
+                },
+    
+                {
+                    "productTitle":"استرداد وجه" ,
+                    "productSubtitle":"مبلغ تراکنش را در لحظه برگشت بزنید"
+                },
+    
+                {
+                    "productTitle":"تسویه پیش از موعد" ,
+                    "productSubtitle":"دریافت موجودی قابل تسویه در سریع‌ترین زمان"
+                },
+    
+                {
+                    "productTitle":"تسهیم فردایی" ,
+                    "productSubtitle":"تقسیم و واریز مبلغ به شرکای تجاری"
+                }
+            ]
+        },
+    
+        {
+            "count":"2" ,
+            "id":"bigNavbar" ,
+            "title":"تعرفه‌ها",
+            "more":false
+        },
+    
+        {
+            "count":"3" ,
+            "id":"bigNavbar" ,
+            "title":"توسعه‌دهندگان",
+            "more":false
+        },
+    
+        {
+            "count":"4" ,
+            "id":"bigNavbar" ,
+            "title":"تماس با ما",
+            "more":false
+        },
+    
+        {
+            "count":"5" ,
+            "id":"bigNavbar" , 
+            "title":"بیش‌تر",
+            "more":true ,
+            "angleIconBlack":"icons/navBar/angle-down-black.svg",
+            "angleIconWhite":"icons/navBar/angle-down-white.svg" ,
+            "menuClass": 2 , 
+            "moreTitles":[
+                {"productTitle":"وبلاگ"},
+                {"productTitle":"دریافت شماره شبا"},
+                {"productTitle":"سوالات متداول"},
+                {"productTitle":"اپلیکیشن"},
+                {"productTitle":"زرین‌بین"}
+            ]
+        },
+    
+        {
+            "count":"6" ,
+            "id":"bigNavbar" ,
+            "title":"زرین‌پال من",
+            "more":false ,
+            "button":true
+        }
+    ],
+    "mobile-nav":[
+        {
+            "class":"menuIcon",
+            "blackMenuIconUrl":"icons/navBar/menu-black.svg",
+            "whiteMenuIconUrl":"icons/navBar/menu-white.svg"
+        },
+        {
+            "class":"closeBtn",
+            "blackCloseIconUrl":"icons/navBar/close-menu-black.svg",
+            "whiteCloseIconUrl":"icons/navBar/close-menu-white.svg"
+        },
+        {
+            "title":"تعرفه‌ها"
+        },
+        {
+            "title":"اپلیکیشن"
+        },
+        {
+            "title":"سوالات متداول"
+        },
+        {
+            "title":"محصولات",
+            "moreMenuMobile":true,
+            "angleDownBlackUrl":"icons/navBar/angle-down-black.svg",
+            "angleDownWhiteUrl":"icons/navBar/angle-down-white.svg",
+            "moreMenuTitles":[
+                {
+                    "title":"درگاه پرداخت اینترنتی"
+                },
+                {
+                    "title":"عیان"
+                },
+                {
+                    "title":"زرین‌لینک"
+                },
+                {
+                    "title":"زرین‌کارت"
+                },
+                {
+                    "title":"زرین‌پلاس"
+                },
+                {
+                    "title":"استرداد وجه"
+                },
+                {
+                    "title":"تسویه پیش از موعد"
+                },
+                {
+                    "title":"تسهیم فردایی"
+                }
+            ]
+        },
+        {
+            "title":"تماس با ما"
+        },
+        {
+            "zarinpalBtn":true,
+            "titleBtn":"زرین‌پال من",
+            "arrowBlackUrl":"icons/navBar/arrow-left-black.svg",
+            "arrowWhiteUrl":"icons/navBar/arrow-left-white.svg"
+        }
+    ],
+    "blueIntro":[
+        {
+            "side":"right",
+
+            "headTitleLine1":"بیش از ۱۳ سال",
+            "headTitleLine2":"انتخاب مطمئنِ کسب و کارهای آنلاین",
+
+            "descriptionTitle":"زرین‌پال، اولین پرداخت‌یار پیشگام کشور، با به‌کارگیری سبک و استانداردهای جدید در ارائه‌ی خدمات درگاه پرداخت اینترنتی، سرویس‌های متنوعی در حوزه‌ی پرداخت الکترونیک را برای کسب و کارها ارائه کرده است؛ با این هدف که در افزایش سهم تجارت الکترونیکی در تولید ناخالص ملی و کمک به رشد و توسعه‌ی کسب‌وکارها، نقش سازنده‌‌ای ایفا کند.",
+
+            "registerBtn":"ثبت‌نام",
+            "loginBtn":"ورود"
+        },
+        {
+            "side":"left",
+            "mobilesPic":"images/home.svg",
+            "alt":"عکس درگاه پرداخت"
+        },
+        {
+            "side":"arrow-bottom",
+            "arrowDownBlackUrl":"icons/navBar/angle-down-black.svg",
+            "arrowDownwhiteUrl":"icons/navBar/angle-down-white.svg"
+        }
+    ]
+}

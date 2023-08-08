@@ -13,6 +13,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none !important;
+    scroll-behavior: smooth !important;
 }
 @font-face {
     font-family: iranYekan;
@@ -25,6 +26,10 @@
 @font-face {
     font-family: bakhB;
     src: url(font/YekanBakhBold.woff) format('woff');
+}
+@font-face {
+    font-family: bakhH;
+    src: url(font/YekanBakhHeavy.woff) format('woff');
 }
 .flexActive{
     display: flex !important;
@@ -41,3 +46,4 @@
 @import "navbarComponents/toggleBtn";
 @import "navbarComponents/component-desktop";
 @import "navbarComponents/component-mobile";
+@import "posts/intro";

@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fa-IR" dir="rtl">
   <head>
     <meta charset="UTF-8" />
@@ -7,22 +7,73 @@
     <title>زرین پال</title>
   </head>
   <body class="dark:bg-[#0F172A] font-yekan tracking-[-0.5px]">
-
     <!-- Start Project @Pourya-Alipanah -->
-    
-    <svg style="display: block;position: absolute; top: 50%; left: 50%; transform: translate(-55% , -50%);" class="pl" width="240" height="240" viewBox="0 0 240 240">
-      <circle class="pl__ring pl__ring--a" cx="120" cy="120" r="105" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 660" stroke-dashoffset="-330" stroke-linecap="round"></circle>
-      <circle class="pl__ring pl__ring--b" cx="120" cy="120" r="35" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 220" stroke-dashoffset="-110" stroke-linecap="round"></circle>
-      <circle class="pl__ring pl__ring--c" cx="85" cy="120" r="70" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 440" stroke-linecap="round"></circle>
-      <circle class="pl__ring pl__ring--d" cx="155" cy="120" r="70" fill="none" stroke="#000" stroke-width="20" stroke-dasharray="0 440" stroke-linecap="round"></circle>
+
+    <svg
+      style="
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-55%, -50%);
+      "
+      class="pl"
+      width="240"
+      height="240"
+      viewBox="0 0 240 240"
+    >
+      <circle
+        class="pl__ring pl__ring--a"
+        cx="120"
+        cy="120"
+        r="105"
+        fill="none"
+        stroke="#000"
+        stroke-width="20"
+        stroke-dasharray="0 660"
+        stroke-dashoffset="-330"
+        stroke-linecap="round"
+      ></circle>
+      <circle
+        class="pl__ring pl__ring--b"
+        cx="120"
+        cy="120"
+        r="35"
+        fill="none"
+        stroke="#000"
+        stroke-width="20"
+        stroke-dasharray="0 220"
+        stroke-dashoffset="-110"
+        stroke-linecap="round"
+      ></circle>
+      <circle
+        class="pl__ring pl__ring--c"
+        cx="85"
+        cy="120"
+        r="70"
+        fill="none"
+        stroke="#000"
+        stroke-width="20"
+        stroke-dasharray="0 440"
+        stroke-linecap="round"
+      ></circle>
+      <circle
+        class="pl__ring pl__ring--d"
+        cx="155"
+        cy="120"
+        r="70"
+        fill="none"
+        stroke="#000"
+        stroke-width="20"
+        stroke-dasharray="0 440"
+        stroke-linecap="round"
+      ></circle>
     </svg>
 
-    <div id="app" class="wrapper" style="display: none;">
-
+    <div id="app" class="wrapper" style="display: none">
       <!-- Start header -->
 
       <header class="headerStyle">
-
         <!-- Start navbar cover pages -->
 
         <div class="coverPage"></div>
@@ -39,20 +90,22 @@
 
         <!-- Start dark mode button -->
 
-        <div class="toggleWrapper md:mt-[11px] md:mr-[20px] mr-[10px] flex md:items-start items-center">
-          <input type="checkbox" class="dn hidden" id="dn">
+        <div
+          class="toggleWrapper md:mt-[11px] md:mr-[20px] mr-[10px] flex md:items-start items-center"
+        >
+          <input type="checkbox" class="dn hidden" id="dn" />
           <label for="dn" class="toggle">
-              <span class="toggle__handler">
-                  <span class="crater crater--1"></span>
-                  <span class="crater crater--2"></span>
-                  <span class="crater crater--3"></span>
-              </span>
-              <span class="star star--1"></span>
-              <span class="star star--2"></span>
-              <span class="star star--3"></span>
-              <span class="star star--4"></span>
-              <span class="star star--5"></span>
-              <span class="star star--6"></span>
+            <span class="toggle__handler">
+              <span class="crater crater--1"></span>
+              <span class="crater crater--2"></span>
+              <span class="crater crater--3"></span>
+            </span>
+            <span class="star star--1"></span>
+            <span class="star star--2"></span>
+            <span class="star star--3"></span>
+            <span class="star star--4"></span>
+            <span class="star star--5"></span>
+            <span class="star star--6"></span>
           </label>
         </div>
 
@@ -63,17 +116,22 @@
         <nav class="bigNav">
           <ul class="ul-bigNav"></ul>
         </nav>
-        
+
         <!-- End desktop navbar -->
 
         <!-- Start mobile navbar -->
-        
-        
+
         <div class="mobileNav">
           <div class="mobileMenu">
-            <div class="closeBtn order-1">
-              <img src="icons/navBar/close-menu-black.svg" class="w-[30px] h-[30px] cursor-pointer dark:hidden">
-              <img src="icons/navBar/close-menu-white.svg" class="w-[30px] h-[30px] cursor-pointer hidden dark:inline-block">
+            <div class="closeBtn">
+              <img
+                src="icons/navBar/close-menu-black.svg"
+                class="w-[30px] h-[30px] cursor-pointer dark:hidden"
+              />
+              <img
+                src="icons/navBar/close-menu-white.svg"
+                class="w-[30px] h-[30px] cursor-pointer hidden dark:inline-block"
+              />
             </div>
             <div class="mobileNavContainer px-[30px]">
               <ul class="ul-mobileNav"></ul>
@@ -82,13 +140,28 @@
         </div>
 
         <!-- End mobile navbar -->
-        
       </header>
-      
+
       <!-- End header -->
-      
+
+      <!-- Start page contents -->
+
+      <article class="contentSection">
+        
+        <!-- Start blue intro -->
+
+        <section class="blueIntro">
+          <div class="blueIntroWrapper"></div>
+        </section>
+        
+        <!-- End blue intro -->
+
+      </article>
+
+    <!-- Start page contents -->
+
     </div>
-    
+
     <!-- Add Script tags -->
     <script type="module" src="./main.js"></script>
 
