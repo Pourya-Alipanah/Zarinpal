@@ -193,5 +193,20 @@
             "arrowDownBlackUrl":"icons/navBar/angle-down-black.svg",
             "arrowDownwhiteUrl":"icons/navBar/angle-down-white.svg"
         }
+    ],
+    "paymentGateway":[
+        {
+            "side":"right"
+        },
+        {
+            "side":"left",
+            "topTitle":"درگاه پرداخت اینترنتی",
+            "headerTitle":"مهندسی شده برای رشد و فروش بیش‌تر",
+            "headeDescription":"درگاه پرداخت زرین‌پال، با اتصالِ همزمان به درگاه‌های متنوع و معتبر بانکی(PSPها)،کاربران را به سریع‌ترین و مطمئن‌ترین درگاه بانکی منتقل می‌کند و به واسطه‌ی قابلیت مسیردهی هوشمند، باعث افزایش درصد تراکنش‌های موفق می‌شود.",
+            "regBtn":"ساخت درگاه پرداخت",
+            "moreBtn":"بیش‌تر بدانید",
+            "arrowBlackUrl":"icons/navBar/arrow-left-black.svg",
+            "arrowWhiteUrl":"icons/navBar/arrow-left-white.svg"
+        }
     ]
 }

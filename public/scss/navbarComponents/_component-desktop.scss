@@ -1,6 +1,6 @@
 @layer components{
     .headerStyle{
-        @apply xl:w-[1170px] lg:w-[941px] w-[100%] md:h-[86px] h-[64px] box-border flex flex-row flex-nowrap  fixed top-0 lg:pt-[21px] lg:pb-[7px] lg:px-0 md:pt-[21px] pt-[8px] md:pr-[20px] md:pb-[7px] md:pl-[20px] pr-[20px] m-auto bg-white z-[5] opacity-100 dark:bg-[#0F172A] 
+        @apply xl:w-[1170px] lg:w-[941px] w-[100%] md:h-[86px] h-[64px] box-border flex flex-row flex-nowrap  fixed top-0 lg:pt-[21px] lg:pb-[7px] lg:px-0 md:pt-[21px] pt-[8px] md:pr-[20px] md:pb-[7px] md:pl-[20px] pr-[20px] m-auto bg-white md:z-[9] z-[99] opacity-100 dark:bg-[#0F172A] 
     }
     .headerStyle{
         transition-property: height , border , backdrop-filter ;
@@ -28,7 +28,7 @@
         @apply rounded-[20px] no-underline text-[#28457b] dark:text-[#fffefb] lg:mr-[20px] py-[10px] lg:px-[27px] md:mr-[1px] md:px-[10px] bg-[rgba(232,239,254,.6)] dark:bg-[rgba(228,197,0,.15)] font-bakhBold hover:bg-[rgba(228,197,0,.15)] dark:hover:bg-[rgba(232,239,254,.6)] dark:hover:text-[#28457b]
     }
     .coverPage , .coverPage2 , .coverPage3{
-        @apply fixed right-0 top-0 w-[100vw] z-[6] h-[100vh] hidden
+        @apply fixed right-0 top-0 w-[100vw] z-[10] h-[100vh] hidden
     }
     .more-menu-1{
         @apply shadow-[0_20px_40px_0_rgba(36,39,51,.15)] min-w-[421px] h-[285px] absolute z-[99] bg-white rounded-[12px] top-[55px] right-[-165px] box-border text-right border-t-[5px] border-x-0 border-b-[1px] border-solid border-t-[#f8e88b] border-b-[hsla(0,0%,100%,.07)] p-[2px] pt-[14px] cursor-default flex-nowrap overflow-hidden dark:bg-[#0F172A] hidden dark:shadow-[0_20px_40px_0_rgba(255,255,255,0.15)]

@@ -21,7 +21,7 @@ let fetchLogo = async ()=>{
     } catch (error) {
 
         throw error;
-
+        
     }
 
 }

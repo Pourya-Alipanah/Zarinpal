@@ -14,7 +14,18 @@
     -ms-user-select: none;
     user-select: none !important;
     scroll-behavior: smooth !important;
+    &::-webkit-scrollbar{
+        width: 8px;
+    }
+    &::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background: silver;
+    }
+    &::-webkit-scrollbar-track {
+        border-radius: 10px;
+    }
 }
+
 @font-face {
     font-family: iranYekan;
     src: url(font/iranyekanwebregular.woff) format('woff');
@@ -35,15 +46,17 @@
     display: flex !important;
 }
 .coverPage , .coverPage2 , .coverPage3{
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px) !important;
+    -webkit-backdrop-filter: blur(2px) !important;
 }
 .rotateAngle{
     transform: rotateZ(180deg) !important;
 }
+
 @import "loader";
 @import "component-wrapper";
 @import "navbarComponents/toggleBtn";
 @import "navbarComponents/component-desktop";
 @import "navbarComponents/component-mobile";
 @import "posts/intro";
+@import "posts/payment-gateway";

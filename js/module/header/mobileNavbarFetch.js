@@ -18,8 +18,6 @@ let fetchMobileNav = async ()=>{
             }
         }).join("");
         
-    
-    
         let navOutput = await jsonOut.map(elem=>{
     
             if(elem.moreMenuMobile === true){
@@ -55,6 +53,7 @@ let fetchMobileNav = async ()=>{
         }).join("");
     
         let zarinpalBtnOut = await jsonOut.map(elem =>{
+            
             if(elem.zarinpalBtn){
                 return `
                 <div class="py-[20px] px-[30px] bg-[#eee] w-[100%] hover:bg-[rgba(228,197,0,.15)] dark:bg-[rgba(228,197,0,.15)] dark:hover:bg-[rgba(232,239,254,.6)] order-3 group">
@@ -68,6 +67,7 @@ let fetchMobileNav = async ()=>{
                     </a>
                 </div>`
             }
+
         }).join("")
     
         document.querySelector("div.mobileNav").innerHTML += menuIconOut;

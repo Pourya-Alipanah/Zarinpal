@@ -7,6 +7,7 @@ import desktopNavbarSettings from "./js/module/header/desktopNavbarSettings.js";
 import mobileNavbarFetch from './js/module/header/mobileNavbarFetch';
 import mobileNavbarSettings from "./js/module/header/mobileNavbarSettings.js";
 import blueIntroFetch from './js/module/posts/blueIntroFetch.js';
+import paymentGateway from './js/module/posts/paymentGateway.js';
 
 $(window).on("load",()=>{
     $('.pl').fadeOut(5000);
@@ -27,3 +28,5 @@ await mobileNavbarFetch.fetchMobileNav();
 mobileNavbarSettings.setting();
 
 await blueIntroFetch.fetchBlueIntro();
+
+await paymentGateway.fetchPgPost();

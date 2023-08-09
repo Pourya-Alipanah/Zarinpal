@@ -30,7 +30,7 @@ const setting = ()=>{
         accordionBtn();
 
     } catch (error) {
-        console.log(error);
+        throw error;
     }
 }
 
