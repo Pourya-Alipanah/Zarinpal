@@ -1,0 +1,29 @@
+@layer components{
+    .zarin-card{
+        @apply flex lg:flex-row flex-col gap-0 mt-[35px]
+    }
+    .zc-right{
+        @apply px-2 lg:w-[50%] flex-1 sm:flex hidden relative lg:bottom-[-20px] lg:justify-start justify-center lg:mb-0 mb-[20px]
+    }
+    .zc-image{
+        @apply xl:w-[463px] lg:w-[454px] w-[420px] lg:h-[483px] h-[274px] bg-[url('./public/images/posts/zarin-card.svg')] bg-center bg-no-repeat
+    }
+    .zc-left{
+        @apply px-2 lg:w-[50%] flex-1 hidden flex-col lg:items-start items-center
+    }
+    .zc-top-title{
+        @apply mb-[5px] text-[#747480] dark:text-[#b3b3c6] font-bakh text-[22px] font-medium tracking-[0.18px] leading-[34px] text-center
+    }
+    .zc-header-title{
+        @apply font-bakhHeavy text-[#303030] dark:text-[#fffefb] xl:text-[32px] sm:text-[30px] text-[24px] leading-[43px] font-[900] text-center
+    }
+    .zc-header-description{
+        @apply mt-[7px] mb-[16px] pb-[20px] max-w-[500px] border-x-0 border-t-0 border-b-[1px] border-solid border-b-[#dfe1e4] text-[#303030] dark:text-[#fffefb] font-bakh lg:text-start text-center
+    }
+    .zc-btn-group{
+        @apply flex mt-[17px] gap-[8px] flex-wrap sm:justify-start justify-center
+    }
+    .more-btn{
+        @apply no-underline bg-[rgba(232,239,254,.6)] dark:bg-[rgba(228,197,0,.15)] dark:text-[#fffefb] text-[#28457b] px-[14px] py-[4px] rounded-[10px] leading-[28px] text-[16px] font-bakhBold flex items-center
+    }
+}

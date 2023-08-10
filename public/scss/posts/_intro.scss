@@ -12,7 +12,7 @@
         @apply sm:text-[18px] text-[16px] font-bakh leading-10 lg:my-[18px] sm:my-0 my-[5px] text-white dark:text-[#fffefb]
     }
     .arrow-down{
-        @apply bg-[url('./public/images/arrowbottom-white.svg')] dark:bg-[url('./public/images/arrowbottom-dark.svg')] bg-no-repeat flex justify-center items-center w-[164px] h-[78px] absolute bottom-[calc(-78px/2)] left-[calc(50%-82px)]
+        @apply bg-[url('./public/images/arrowbottom-white.svg')] dark:bg-[url('./public/images/arrowbottom-dark.svg')] bg-no-repeat flex justify-center items-center w-[164px] h-[78px] absolute bottom-[calc(-78px/2)] left-[calc(50%-82px)] 
     }
     .right-box{
         @apply lg:w-[50%] bg-transparent px-2 text-white dark:text-[#fffefb] flex flex-col lg:items-start items-center text-center lg:text-start

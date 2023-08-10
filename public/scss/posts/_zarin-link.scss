@@ -1,0 +1,29 @@
+@layer components{
+    .zarin-link{
+        @apply flex lg:flex-row flex-col mt-[35px] lg:justify-end justify-normal lg:min-h-[unset] sm:min-h-[788px] min-h-[unset]
+    }
+    .zl-left{
+        @apply px-2 lg:w-[50%] flex-1 sm:flex hidden relative lg:bottom-[70px] lg:justify-end justify-center items-end
+    }
+    .zl-image{
+        @apply xl:w-[569px] w-[454px] h-[530px] bg-[url('./public/images/posts/zarin-link.svg')] bg-center bg-no-repeat
+    }
+    .zl-right{
+        @apply px-2 lg:w-[50%] flex-1 hidden flex-col lg:items-start items-center
+    }
+    .zl-top-title{
+        @apply mb-[5px] text-[#747480] dark:text-[#b3b3c6] font-bakh text-[22px] font-medium tracking-[0.18px] leading-[34px] text-center
+    }
+    .zl-header-title{
+        @apply font-bakhHeavy text-[#303030] dark:text-[#fffefb] xl:text-[32px] sm:text-[30px] text-[24px] leading-[43px] font-[900] text-center
+    }
+    .zl-header-description{
+        @apply mt-[7px] mb-[16px] pb-[20px] max-w-[500px] border-x-0 border-t-0 border-b-[1px] border-solid border-b-[#dfe1e4] text-[#303030] dark:text-[#fffefb] font-bakh lg:text-start text-center
+    }
+    .zl-btn-group{
+        @apply flex mt-[17px] gap-[8px] flex-wrap sm:justify-start justify-center
+    }
+    .more-btn{
+        @apply no-underline bg-[rgba(232,239,254,.6)] dark:bg-[rgba(228,197,0,.15)] dark:text-[#fffefb] text-[#28457b] px-[14px] py-[4px] rounded-[10px] leading-[28px] text-[16px] font-bakhBold flex items-center
+    }
+}

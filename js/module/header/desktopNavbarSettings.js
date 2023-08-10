@@ -63,9 +63,14 @@ const navScrollProcces = ()=>{
 
         $("header").addClass("scrollHeaderStyle");
         
+    }else if(st > 2 && screenSize < 768){
+
+        $("header").addClass("mobileScrollHeaderStyle");
+
     }else{
 
         $("header").removeClass("scrollHeaderStyle");
+        $("header").removeClass("mobileScrollHeaderStyle");
     }
 };
 

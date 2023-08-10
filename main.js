@@ -1,5 +1,6 @@
 import './style.css';
 import $ from 'jquery';
+import 'animate.css';
 import darkMode from "./js/module/setting/darkMode.js";
 import logoTop from "./js/module/header/logoTop.js";
 import desktopNavBarFetch from "./js/module/header/desktopNavbarFetch.js";
@@ -8,25 +9,48 @@ import mobileNavbarFetch from './js/module/header/mobileNavbarFetch';
 import mobileNavbarSettings from "./js/module/header/mobileNavbarSettings.js";
 import blueIntroFetch from './js/module/posts/blueIntroFetch.js';
 import paymentGateway from './js/module/posts/paymentGateway.js';
+import postsFade from './js/module/setting/postsFade.js';
+import zarinLink from './js/module/posts/zarin-link.js';
+import zarinCard from './js/module/posts/zarin-card.js';
+import payOut from './js/module/posts/pay-out.js';
+import zarinPlus from './js/module/posts/zarin-plus.js';
 
-$(window).on("load",()=>{
-    $('.pl').fadeOut(5000);
-    $("div#app").delay(4600).fadeIn(300)
-});
+try {
+    
+    $(window).on("load",()=>{
+        $('.pl').fadeOut(5000);
+        $("div#app").delay(4600).fadeIn(300)
+    });
+    
+    window.$ = $;
+    darkMode.setting();
+    
+    logoTop.fetchLogo();
+    
+    await desktopNavBarFetch.fetchDeskNav();
+    
+    desktopNavbarSettings.setting();
+    
+    await mobileNavbarFetch.fetchMobileNav();
+    
+    mobileNavbarSettings.setting();
+    
+    await blueIntroFetch.fetchBlueIntro();
+    
+    await paymentGateway.fetchPgPost();
 
-window.$ = $;
-darkMode.setting();
+    await zarinLink.fetchZlPost();
 
-logoTop.fetchLogo();
+    await zarinCard.fetchZcPost();
 
-await desktopNavBarFetch.fetchDeskNav();
+    await payOut.fetchPoPost();
 
-desktopNavbarSettings.setting();
+    await zarinPlus.fetchZpPost();
+    
+    postsFade.fadePosts();
 
-await mobileNavbarFetch.fetchMobileNav();
+} catch (error) {
 
-mobileNavbarSettings.setting();
+    throw error;
 
-await blueIntroFetch.fetchBlueIntro();
-
-await paymentGateway.fetchPgPost();
+}

@@ -1,15 +1,31 @@
 @layer components{
     .payment-gateway{
-        @apply mt-[157px] flex lg:flex-row flex-col gap-0
+        @apply mt-[157px] flex lg:flex-row flex-col gap-0 relative min-h-[299px] sm:min-h-[unset] min-w-[250px] sm:min-w-[unset]
+    }
+    .payment-gateway{
+        &::after{
+            content:"";
+            background-image: url("./public/images/posts/gray-bg.svg");
+            background-repeat: no-repeat;
+            width: 985px;
+            height: 703px;
+            z-index: -2;
+            position: absolute;
+            bottom: -225px;
+            left: -100px;
+            @media screen and (max-width:992px){
+                left: -10px;
+            }
+        }
     }
     .pg-right{
         @apply px-2 lg:w-[50%] flex-1 sm:flex hidden relative lg:bottom-[50px] lg:justify-start justify-center 
     }
     .pg-image{
-        @apply w-[463px] h-[483px] bg-[url('./public/images/posts/pg.svg')] dark:bg-[url('./public/images/posts/pg-dark.svg')]
+        @apply xl:w-[569px] w-[454px] h-[483px] bg-[url('./public/images/posts/pg.svg')] dark:bg-[url('./public/images/posts/pg-dark.svg')] bg-no-repeat
     }
     .pg-left{
-        @apply px-2 lg:w-[50%] flex-1 flex flex-col lg:items-start items-center
+        @apply px-2 lg:w-[50%] flex-1 flex-col lg:items-start items-center hidden
     }
     .pg-top-title{
         @apply mb-[5px] text-[#747480] dark:text-[#b3b3c6] font-bakh text-[22px] font-medium tracking-[0.18px] leading-[34px] text-center
