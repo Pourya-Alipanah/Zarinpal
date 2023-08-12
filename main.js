@@ -14,6 +14,8 @@ import zarinLink from './js/module/posts/zarin-link.js';
 import zarinCard from './js/module/posts/zarin-card.js';
 import payOut from './js/module/posts/pay-out.js';
 import zarinPlus from './js/module/posts/zarin-plus.js';
+import readMore from './js/module/posts/read-more.js';
+import joinBox from './js/module/posts/join-box.js';
 
 try {
     
@@ -48,6 +50,10 @@ try {
     await zarinPlus.fetchZpPost();
     
     postsFade.fadePosts();
+
+    await readMore.fetchRMPost();
+
+    await joinBox.fetchJbPost();
 
 } catch (error) {
 

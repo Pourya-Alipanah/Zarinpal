@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-html , body{
+body , html{
     overflow-x: hidden !important;
 }
 
@@ -68,3 +68,5 @@ html , body{
 @import "posts/zarin-card";
 @import "posts/pay-out";
 @import "posts/zarin-plus";
+@import "posts/read-more";
+@import "posts/join-box";

@@ -1,6 +1,6 @@
 @layer components{
     .zarin-plus{
-        @apply flex lg:flex-row flex-col gap-0 mt-[35px]
+        @apply flex lg:flex-row flex-col gap-0 mt-[35px] sm:min-h-[unset] min-h-[338px]
     }
     .zp-right{
         @apply px-2 lg:w-[50%] flex-1 sm:flex hidden relative lg:bottom-[0] lg:justify-start justify-center lg:mb-0 mb-[20px]

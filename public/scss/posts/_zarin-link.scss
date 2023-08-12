@@ -1,6 +1,6 @@
 @layer components{
     .zarin-link{
-        @apply flex lg:flex-row flex-col mt-[35px] lg:justify-end justify-normal lg:min-h-[unset] sm:min-h-[788px] min-h-[unset]
+        @apply flex lg:flex-row flex-col mt-[35px] lg:justify-end justify-normal lg:min-h-[unset] sm:min-h-[788px] min-h-[258px]
     }
     .zl-left{
         @apply px-2 lg:w-[50%] flex-1 sm:flex hidden relative lg:bottom-[70px] lg:justify-end justify-center items-end

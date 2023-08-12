@@ -1,6 +1,6 @@
 @layer components{
     .wrapper{
-        @apply xl:w-[1170px] lg:w-[940px] md:px-0 my-[10px] mx-auto sm:min-h-[unset] min-h-[3000px] overflow-hidden
+        @apply xl:w-[1170px] lg:w-[940px] md:px-0 my-[10px] mx-auto overflow-hidden
     }
     .contentSection{
         @apply md:px-[30px] lg:px-0 px-0 md:m-0 m-2

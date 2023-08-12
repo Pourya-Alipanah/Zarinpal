@@ -1,0 +1,50 @@
+@layer components{
+    .read-more{
+        @apply mt-[40px] mb-[10px] flex xl:flex-row flex-col
+    }
+    .rm-right{
+        @apply pt-[32px] px-2 xl:w-[33.33333333%] w-[100%] xl:text-start text-center
+    }
+    .rm-header-title{
+        @apply xl:max-w-[400px] text-[32px] text-[#303030] dark:text-[#fffefb] mt-[5px] leading-[43px] font-bakhHeavy font-[900]
+    }
+    .rm-header-description{
+        @apply xl:max-w-[305px] w-[100%] mt-[35px] pb-[20px] leading-[40px] text-[#303030] dark:text-[#fffefb] font-bakh text-[16px] whitespace-normal
+    }
+    .rm-left{
+        @apply flex-1 p-[30px]
+    }
+    .table-box{
+        @apply border-collapse border-spacing-0 w-[100%]
+    }
+    .rm-table-top{
+        @apply flex justify-center xl:border-b-[1px] border-b-0 border-solid border-[#e0e4e7] border-x-0 border-t-0 md:flex-row flex-col md:items-stretch items-center
+    }
+    .rm-table-bottom{
+        @apply flex justify-center md:flex-row flex-col items-center
+    }
+    .rm-td-right{
+        @apply flex flex-col xl:border-l-[1px] border-l-0 border-solid border-[#e0e4e7] border-y-0 border-r-0 text-[24px] py-[13px] px-[20px]
+    }
+    .rm-td-content-wrapper{
+        @apply flex items-center pt-[20px] pb-[7px] md:text-start text-center
+    }
+    .verified-icon-wrapper{
+        @apply w-[60px] h-[60px] bg-[url('./public/images/posts/verifiedIcon.svg')] bg-no-repeat
+    }
+    .splite-icon-wrapper{
+        @apply w-[60px] h-[60px] bg-[url('./public/images/posts/splite.svg')] bg-no-repeat
+    }
+    .support-icon-wrapper{
+        @apply w-[60px] h-[60px] bg-[url('./public/images/posts/support.svg')] bg-no-repeat
+    }
+    .rm-table-title{
+        @apply text-[24px] text-[#303030] dark:text-[#fffefb] font-bakhHeavy mr-[16px]
+    }
+    .rm-table-description{
+        @apply font-bakh text-[16px] text-[#303030] dark:text-[#fffefb] leading-[36px] max-w-[317px] mt-[21px] md:text-start text-center
+    }
+    .rm-td-left{
+        @apply flex flex-col text-[#2d3436] dark:text-[#fffefb] text-[24px] py-[13px] px-[20px]
+    }
+}

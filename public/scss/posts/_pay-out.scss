@@ -1,6 +1,6 @@
 @layer components{
     .pay-out{
-        @apply flex lg:flex-row flex-col mt-[35px] lg:min-h-[unset] sm:min-h-[658px] min-h-[unset]
+        @apply flex lg:flex-row flex-col mt-[35px] lg:min-h-[unset] sm:min-h-[658px] min-h-[298px]
     }
     .po-left{
         @apply px-2 lg:w-[50%] flex-1 sm:flex hidden relative lg:bottom-[15px] lg:justify-end justify-center items-end
