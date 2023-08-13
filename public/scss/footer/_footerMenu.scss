@@ -1,0 +1,35 @@
+@layer components{
+    .footerMenu{
+        @apply flex lg:flex-row flex-col lg:items-start lg:gap-0 gap-[20px] items-center w-[100%]
+    }
+    .fMenu{
+        @apply flex flex-1 lg:gap-0 gap-[40px] flex-wrap justify-center
+    }
+    .fMenuWrapper{
+        @apply md:min-w-[unset] min-w-[30%] flex-1 md:px-2 pl-2 pr-[25px] flex flex-col
+    }
+    .footerTitle{
+        @apply sm:text-[20px] text-[14px] text-[#303030] font-bakhHeavy dark:text-[#fffefb]
+    }
+    .fMenuUl{
+        @apply flex flex-col list-none mt-[16px]
+    }
+    .fMenuLi{
+        @apply sm:text-[16px] text-[12px] text-[#303030] leading-[40px] cursor-pointer hover:text-[#21457f] dark:text-[#fffefb] dark:hover:text-[#f8e88b]
+    }
+    .footerLogos{
+        @apply w-[33.3333333333%] flex flex-col gap-[15px] items-center
+    }
+    .socialNetworks{
+        @apply flex gap-[15px]
+    }
+    .logoSetting{
+        @apply flex justify-center items-center sm:w-[44px] w-[35px] sm:h-[44px] h-[35px] transition-all duration-500 ease-in rounded-[12px] bg-[#eff4fe] hover:bg-[#fefefe] dark:hover:bg-[rgba(232,239,254,0.6)]
+    }
+    .eNamad{
+        @apply flex items-center justify-center
+    }
+    .copyRight{
+        @apply flex items-center justify-center gap-[5px] w-[100%] mt-[30px] sm:mb-[75px] mb-[20px] sm:text-[16px] text-[12px]
+    }
+}

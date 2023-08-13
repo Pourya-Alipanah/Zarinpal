@@ -16,6 +16,8 @@ import payOut from './js/module/posts/pay-out.js';
 import zarinPlus from './js/module/posts/zarin-plus.js';
 import readMore from './js/module/posts/read-more.js';
 import joinBox from './js/module/posts/join-box.js';
+import support from './js/module/footer/support.js';
+import footerMenu from './js/module/footer/footerMenu.js';
 
 try {
     
@@ -54,6 +56,10 @@ try {
     await readMore.fetchRMPost();
 
     await joinBox.fetchJbPost();
+
+    await support.fetchSup();
+
+    await footerMenu.fetchFooterMenu();
 
 } catch (error) {
 

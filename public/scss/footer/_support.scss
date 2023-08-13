@@ -1,0 +1,20 @@
+@layer components{
+    .footer{
+        @apply pt-[40px] my-[10px] flex flex-col w-[100%]
+    }
+    .support{
+        @apply w-[100%] flex lg:flex-row flex-col items-center bg-[#fbf6f1] dark:bg-[#2d3349] rounded-[35px] mb-[50px] px-[30px] min-h-[70px]
+    }
+    .sup-right{
+        @apply flex sm:flex-row flex-col sm:gap-0 gap-[3px] flex-wrap items-center font-bakhHeavy xl:text-[20px] text-[14px] text-[#303030] dark:text-[#fffefb] sm:text-start text-center sm:mb-0 mb-[3px]
+    }
+    .pipe{
+        @apply px-[20px] sm:flex hidden items-center
+    }
+    .phone-number{
+        @apply text-[#21457f] dark:text-[#ffe422] lg:text-[24px] text-[19px] mr-[10px] cursor-text select-text
+    }
+    .sup-left{
+        @apply flex-1 flex items-center justify-end font-bakhHeavy xl:text-[20px] lg:text-[18px] text-[16px] text-[#21457f] dark:text-[#fffefb]
+    }
+}

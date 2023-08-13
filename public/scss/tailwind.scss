@@ -16,7 +16,7 @@ body , html{
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none !important;
+    user-select: none;
     scroll-behavior: smooth !important;
     &::-webkit-scrollbar{
         width: 8px;
@@ -70,3 +70,5 @@ body , html{
 @import "posts/zarin-plus";
 @import "posts/read-more";
 @import "posts/join-box";
+@import "footer/support";
+@import "footer/footerMenu";

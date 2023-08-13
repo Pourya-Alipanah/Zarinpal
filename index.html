@@ -9,6 +9,8 @@
   <body class="dark:bg-[#0F172A] font-yekan tracking-[-0.5px]">
     <!-- Start Project @Pourya-Alipanah -->
 
+    <!-- Page loader -->
+
     <svg
       style="
         display: block;
@@ -69,8 +71,12 @@
         stroke-linecap="round"
       ></circle>
     </svg>
-    <div id="app" class="wrapper" style="display: none">
 
+    <!-- End Page loader -->
+
+    <!-- Start Wrapper -->
+
+    <div id="app" class="wrapper" style="display: none">
       <!--Start Cover page for mobile version . thanks to chrome's bug :( -->
 
       <div class="coverPage3"></div>
@@ -80,9 +86,8 @@
       <!-- Start header -->
 
       <header class="headerStyle">
-        
         <!-- Start navbar cover pages -->
-        
+
         <div class="coverPage"></div>
         <div class="coverPage2"></div>
 
@@ -153,7 +158,6 @@
       <!-- Start page contents (main) -->
 
       <main class="contentSection">
-
         <!-- Start blue intro -->
 
         <section class="blueIntro">
@@ -198,29 +202,46 @@
 
         <!-- End Read-more -->
 
-        <section class="join-box">
+        <!-- Start join box -->
 
-          <!-- <div class="jb-wrapper">
-            
-            <h3 class="jb-top-title">
-              به خانواده‌ی یک میلیونی زرین‌پال بپیوندید.
-            </h3>
+        <section class="join-box"></section>
 
-            <span class="jb-description">
-              یک ماه رایگان، هدیه‌ی عضویت زرین‌پال به شما 
-            </span>
-
-            <a href="#" class="register-btn mt-[17px]">
-              شروع کنید
-            </a>
-
-          </div> -->
-        </section>
-
+        <!-- End join box -->
       </main>
 
       <!-- End page contents (main) -->
+
+      <!-- Start footer -->
+
+      <footer class="footer">
+        <!-- Start Support -->
+
+        <section class="support"></section>
+
+        <!-- End Support -->
+
+        <!-- Start footerMenu -->
+
+        <section class="footerMenu">
+          <div class="fMenu"></div>
+          <div class="footerLogos"></div>
+        </section>
+
+        <!-- End footerMenu -->
+
+        <div class="copyRight">
+          <span class="text-[#21457f] dark:text-[#ffe422]">
+            Pourya-Alipanah
+          </span>
+
+          <span class="dark:text-[#fffefb]"> © Zarinpal 1402 </span>
+        </div>
+      </footer>
+
+      <!-- End footer -->
     </div>
+
+    <!-- End Wrapper -->
 
     <!-- Add Script tags -->
     <script type="module" src="./main.js"></script>

@@ -8,8 +8,7 @@
     "build": "vite build",
     "preview": "vite build && vite preview",
     "tailwindM": "npx tailwindcss -i ./public/tailwind/tailwind.css -o ./style.css --minify --watch",
-    "scssM": "node-sass -w ./public/scss/tailwind.scss -o ./public/tailwind/ -r --output-style compressed ",
-    "server": "json-server --watch ./public/json/db.json --port 4030"
+    "scssM": "node-sass -w ./public/scss/tailwind.scss -o ./public/tailwind/ -r --output-style compressed "
   },
   "devDependencies": {
     "tailwindcss": "^3.3.3",
@@ -18,7 +17,6 @@
   "dependencies": {
     "animate.css": "^4.1.1",
     "jquery": "^3.7.0",
-    "json-server": "^0.17.3",
     "node-sass": "^9.0.0"
   }
 }
